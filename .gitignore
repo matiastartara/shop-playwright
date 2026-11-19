@@ -1,0 +1,21 @@
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+.env
+
+# playwright-cli (snapshots y logs de consola de sesiones locales)
+.playwright-cli/
+
+# Estado de sesión/auth de Playwright (cookies, tokens)
+playwright/.auth/
+*.storageState.json
+
+# Variables de entorno (permitir solo el ejemplo)
+.env.*
+!.env.example
+
+# OS / logs
+.DS_Store
+*.log
